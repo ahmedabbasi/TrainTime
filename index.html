@@ -7,13 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Train Time </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Compiled and minified JavaScript -->
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron text-center">
-            <h1 class="my-5">Train Time</h1>
-        </div>
+    <nav>
+       
+       
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Train Time</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="www.google.com">Search</a></li>
+              </ul>
+            </div>
+        
         <div class="card my-3">
             <div class="card-header">
                 <h4>Current Train Schedule</h4>
@@ -35,6 +45,7 @@
                 </table>
             </div>
         </div>
+    
         <div class="card my-3">
             <div class="card-header">
                 <h4>Add Train</h4>
@@ -66,7 +77,8 @@
                     <button type="submit" class="btn btn-primary" id="submit-form">Submit</button>
                 </form>
             </div>
-        </div>
+        </nav>
+    
         <script src="https://code.jquery.com/jquery.js"></script>
         <script type="text/javascript" src="assets/javascript/app.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
